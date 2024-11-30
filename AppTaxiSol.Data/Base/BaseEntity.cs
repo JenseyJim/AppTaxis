@@ -8,6 +8,7 @@ namespace AppTaxiSol.Data.Base
 {
     public abstract class BaseEntity
     {
+        //Comentario prueba
         public int Id { get; set; }
     }
 }
