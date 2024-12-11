@@ -5,7 +5,11 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTaxiSol.Data", "AppTaxiSol.Data\AppTaxiSol.Data.csproj", "{C79D32C9-BB9D-4364-AE2E-9F0ECE6F5F62}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTaxiSol.Api", "AppTaxiSol.Api\AppTaxiSol.Api.csproj", "{99C1AECB-2A2A-4217-9FCB-7C24D7DBB6AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppTaxiSol.Api", "AppTaxiSol.Api\AppTaxiSol.Api.csproj", "{99C1AECB-2A2A-4217-9FCB-7C24D7DBB6AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTaxiSol.Web.Api", "AppTaxiSol.Web.Api\AppTaxiSol.Web.Api.csproj", "{09227EDD-EC88-4088-A4B9-A206DBC15B0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTaxiSol.Web", "AppTaxiSol.Web\AppTaxiSol.Web.csproj", "{49AEEF54-5471-43DF-B615-7C2B1FF44EC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{99C1AECB-2A2A-4217-9FCB-7C24D7DBB6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99C1AECB-2A2A-4217-9FCB-7C24D7DBB6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99C1AECB-2A2A-4217-9FCB-7C24D7DBB6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09227EDD-EC88-4088-A4B9-A206DBC15B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09227EDD-EC88-4088-A4B9-A206DBC15B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09227EDD-EC88-4088-A4B9-A206DBC15B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09227EDD-EC88-4088-A4B9-A206DBC15B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49AEEF54-5471-43DF-B615-7C2B1FF44EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AEEF54-5471-43DF-B615-7C2B1FF44EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AEEF54-5471-43DF-B615-7C2B1FF44EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AEEF54-5471-43DF-B615-7C2B1FF44EC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
